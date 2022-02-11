@@ -23,7 +23,7 @@ db.widgetSalesMonthlyAgg.find()
 
 
 
-## Question-2
+### Question-2
 
 ### Can you show what a sample query would look like?
 
@@ -48,10 +48,12 @@ db.orders.stats()
 
 ### Why do you think this index will be the fastest?
 
-## The index would be fastest because it will search the collection by productName first and then by status instead of searching all the documents for the given variables.
+### The index would be fastest because it will search the collection by productName first and then by status instead of searching all the documents for the given variables.
 
 
-## Can you complete the missing nodes and relationships
+### Question 3
+
+### Can you complete the missing nodes and relationships
 
 
 
