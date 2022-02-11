@@ -25,19 +25,19 @@ db.widgetSalesMonthlyAgg.find()
 
 ### Question-2
 
-### Can you show what a sample query would look like?
+## Can you show what a sample query would look like?
 
 ```
 db.orders.find({productName: "Iron rod"},{status: 1, _id:0})
 ```
 
 
-### What kind of index would you advise for the fastest query response? Create it
+## What kind of index would you advise for the fastest query response? Create it
 ```
 db.orders.createIndex({productName: 1, status: 1})
 ```
 
-### What is the index size?
+## What is the index size?
 
 ```
 db.orders.stats()
@@ -46,14 +46,14 @@ db.orders.stats()
 ##  The index size is 20480
 
 
-### Why do you think this index will be the fastest?
+## Why do you think this index will be the fastest?
 
-### The index would be fastest because it will search the collection by productName first and then by status instead of searching all the documents for the given variables.
+## Answer: The index would be fastest because it will search the collection by productName first and then the matched productName by status instead of searching all the documents for the given variables.
 
 
 ### Question 3
 
-### Can you complete the missing nodes and relationships
+## Can you complete the missing nodes and relationships
 
 
 
