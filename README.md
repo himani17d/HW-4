@@ -43,7 +43,7 @@ db.orders.createIndex({productName: 1, status: 1})
 db.orders.stats()
 ```
 
-##### Answer The index size is 20480
+##### Answer: The index size is 20480
 
 
 #### Q) Why do you think this index will be the fastest?
